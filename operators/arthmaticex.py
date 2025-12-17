@@ -1,0 +1,16 @@
+a=10
+b=20
+c=30.5
+d="40"
+e="Rahul"
+f="gandhi"
+g=True
+h=False
+print(a+b)
+print(a+c)
+print(a+d)
+print(f+e)
+print(a+h)
+print(a+g)
+print(a+f)
+print(b+g)

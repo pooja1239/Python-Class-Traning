@@ -1,0 +1,5 @@
+numbers =range(100)
+print(10 in numbers)
+print(150 in numbers)
+print(98 in numbers)
+print(100 not in numbers)
