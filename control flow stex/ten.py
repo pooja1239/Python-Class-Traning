@@ -49,11 +49,8 @@ employees=[{"eid":1,"ename":"Gustavus","gender":"Male"},
 {"eid":49,"ename":"Delbert","gender":"Male"},
 {"eid":50,"ename":"Kile","gender":"Male"}]
 
-for emp in employees:
-    print(emp["ename"])
-for emp in employees:
-    if emp["gender"] == "Female":
-        print(emp["ename"])
+male_Count=0
 for emp in employees:
     if emp["gender"] == "Male":
-        print(emp["ename"])
+        male_Count += 1
+print("no of Male emp",male_Count)
