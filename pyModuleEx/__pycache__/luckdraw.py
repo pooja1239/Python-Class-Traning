@@ -1,4 +1,4 @@
-import random
-enames=["pooja","priya"]
+from random import choice
 
-print(random(choice(enames)))
+enames = ["pooja", "priya","pooja"]
+print(choice(enames))
