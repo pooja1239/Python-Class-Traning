@@ -1,0 +1,7 @@
+fp1=open('data.txt','r')
+data=fp1.read()
+fp2=open("greet.txt","w")
+fp2.write(data)
+print("Data copied successfully from data.txt to greet.txt")
+fp1.close()
+fp2.close()
